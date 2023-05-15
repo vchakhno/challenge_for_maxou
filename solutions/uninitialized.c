@@ -6,7 +6,7 @@
 /*   By: vchakhno <vchakhno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 03:03:13 by vchakhno          #+#    #+#             */
-/*   Updated: 2023/05/15 05:22:03 by vchakhno         ###   ########.fr       */
+/*   Updated: 2023/05/15 05:34:08 by vchakhno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,12 @@
 // Tu dois faire en sorte que le programme print "[5, 6, 7]" en écrivant
 // seulement du code entre les accolades d'init_values.
 
-int	init_values(void)
+void	init_values(void)
 {
 	int	values[3] = {5, 6, 7};
 }
 
-int	print_values(void)
+void	print_values(void)
 {
 	int	values[3];
 
